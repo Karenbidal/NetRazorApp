@@ -33,7 +33,7 @@ namespace NetRazorApp.Modelos
         [DisplayFormat(DataFormatString = "{0: dd/MM/yyyy}")]
         [Display(Name = "Cantidad de cursos")]
         [Required]
-        public int Cant_Cursos { get; set; }
+        public int Cant_cursos { get; set; }
         [Required]
         [Display(Name = "Fecha de egreso")]
         [DisplayFormat(DataFormatString = "{0: yyyy/MM/dd}")]
